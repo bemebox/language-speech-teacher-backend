@@ -23,7 +23,10 @@ Python 3 based language speaking teacher to assist users in training and improvi
 ## Technologies Used
 
 - [Python 3](https://docs.python.org/3/)
-
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [uvicorn](https://www.uvicorn.org/)
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+- [language_tool_python](https://pypi.org/project/language-tool-python/)
 
 ## Documentation
 
@@ -57,6 +60,8 @@ Make sure you have the following installed:
     ```bash
     pip install fastapi
     pip install "uvicorn[standard]"
+    pip install SpeechRecognition
+    pip install language_tool_python
     ```
 4. Start the FastAPI application:
     ```bash
